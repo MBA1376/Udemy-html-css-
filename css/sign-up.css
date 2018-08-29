@@ -1,0 +1,77 @@
+body {
+	background-image : url(../img/input-bg-01.jpg);
+	color : white;
+	font-family : Serial;
+	background-size : cover;
+}
+
+.container {
+	width : 65%;
+	margin-left : auto;
+	margin-right : auto;
+}
+
+
+.main-area {
+	float : left;
+	width : 40%;
+	margin-top : 15%;
+	margin-left : 50px;
+	font-size : 150%;
+	margin-right : 10%;
+}
+
+.content-area form {
+	float : left;
+	width : 35%;
+	margin-top : 20%;
+}
+
+.content-area form input {
+	border-top :none;
+	border-right : none;
+	border-left : none;
+	border-bottom : 1px solid white;
+	width : 100%;
+	margin-bottom : 50px;
+	background-color:rgba(0,0,0,0.2);
+	font-size : 100%;
+	color : white;
+	padding-bottom : 10px;
+}
+
+.content-area form input[type="submit"] {
+	background-color:white;
+	color : #000;
+	width : 28%;
+	height : 50px;
+	margin-left : 73%;
+}
+
+.content-area form input[type="submit"]:hover {
+	background-color : #ccc;
+}
+.group:before,
+.group:after  {
+	content : "" ;
+	display : table
+}
+
+.group:after {
+	clear : both;
+}
+ 
+.group {
+	zoom :1;
+} 
+
+
+footer {
+	margin-left : 17%;
+	margin-top : 40%;
+	background-color :  rgba(0,0,0 ,0.30);
+	text-align : center;
+	width : 60%;
+	font-size : 85%;
+	padding :1px 0px;
+}
